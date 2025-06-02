@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 33% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 215 16% 47%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5% 26%;
+    --sidebar-primary: 240 6% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 5% 96%;
+    --sidebar-accent-foreground: 240 6% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217 92% 60%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217 33% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 33% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 213 27% 84%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-portfolio-accent text-white rounded-md font-medium 
+    transition-all duration-300 hover:bg-portfolio-primary hover:scale-105
+    focus:outline-none focus:ring-2 focus:ring-portfolio-accent focus:ring-opacity-50;
+  }
+
+  .section-divider {
+    @apply w-px bg-portfolio-secondary/30 mx-auto my-0 absolute left-1/2 -translate-x-1/2 h-full z-10;
+  }
+
+  .vertical-timeline {
+    @apply relative w-full;
+  }
+
+  .timeline-item {
+    @apply mb-16 relative;
+  }
+
+  .timeline-item-left {
+    @apply pr-12 text-right;
+  }
+
+  .timeline-item-right {
+    @apply pl-12 text-left;
+  }
+
+  .timeline-dot {
+    @apply w-5 h-5 bg-portfolio-accent rounded-full absolute top-1 z-20;
+  }
+
+  .timeline-dot-left {
+    @apply right-0 -translate-x-10;
+  }
+
+  .timeline-dot-right {
+    @apply left-0 translate-x-10;
+  }
+
+  .year-label {
+    @apply text-4xl font-bold mb-2 text-portfolio-primary;
+  }
+
+  .portfolio-image {
+    @apply rounded-lg overflow-hidden transition-all duration-500;
+  }
+
+  .portfolio-image:hover {
+    @apply scale-105 shadow-xl;
+  }
+
+  .tech-icon {
+    @apply w-12 h-12 text-portfolio-primary transition-all duration-300 hover:text-portfolio-accent hover:scale-110;
+  }
+
+  .nav-link {
+    @apply relative py-2 px-4 text-portfolio-primary hover:text-portfolio-accent transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-portfolio-accent transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .stagger-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .stagger-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .about-line {
+    @apply w-0.5 h-full bg-portfolio-secondary/30 absolute top-0 left-1/2 -translate-x-1/2;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-section {
+  transition: all 8s ease;
+}
+
+.animated-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+.animated-button:hover:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.zoom-hover {
+  transition: transform 0.5s ease;
+}
+
+.zoom-hover:hover {
+  transform: scale(1.05);
+}
+
+.image-card-hover {
+  transition: all 0.3s ease;
+}
+
+.image-card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Water flow animation effects */
+@keyframes water-flow {
+  0% {
+    transform: translateY(-5%) translateX(-10%) rotate(0deg);
+  }
+  50% {
+    transform: translateY(5%) translateX(15%) rotate(10deg);
+  }
+  100% {
+    transform: translateY(-5%) translateX(-10%) rotate(0deg);
+  }
+}
+
+.water-flow-1,
+.water-flow-2,
+.water-flow-3 {
+  position: absolute;
+  opacity: 0.03;
+  border-radius: 40%;
+}
+
+.water-flow-1 {
+  top: -10%;
+  left: -5%;
+  width: 50%;
+  height: 60%;
+  background-color: #3B82F6;
+  animation: water-flow 15s infinite ease-in-out;
+}
+
+.water-flow-2 {
+  bottom: 10%;
+  right: -10%;
+  width: 60%;
+  height: 40%;
+  background-color: #1E293B;
+  animation: water-flow 20s infinite ease-in-out reverse;
+  animation-delay: 5s;
+}
+
+.water-flow-3 {
+  top: 30%;
+  right: 20%;
+  width: 30%;
+  height: 40%;
+  background-color: #3B82F6;
+  animation: water-flow 25s infinite ease-in-out;
+  animation-delay: 2s;
+}
