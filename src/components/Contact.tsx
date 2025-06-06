@@ -131,8 +131,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-portfolio-accent">Phone</h4>
-                    <p className="text-white/80">+46726405900</p>
+                    <h4 className="font-semibold text-portfolio-accent">Telegram</h4>
+                    <p className="text-white/80">@codemaster219</p>
                   </div>
                 </div>
                 

@@ -76,7 +76,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-semibold mb-4 text-portfolio-primary">My Journey</h3>
             <p className="text-portfolio-secondary mb-4">
-              With over 8 years of experience in web and mobile development, I've worked with a diverse range of clients from startups to established businesses. My passion is creating beautiful and functional applications that solve real problems.
+              With over 7 years of experience in web and mobile development, I've worked with a diverse range of clients from startups to established businesses. My passion is creating beautiful and functional applications that solve real problems.
             </p>
             <p className="text-portfolio-secondary mb-6">
               I specialize in front-end development with React and Next.js, but I'm also proficient in backend technologies like Node.js, Express, and various databases. I believe in writing clean, maintainable code and constantly learning new technologies.
@@ -103,7 +103,7 @@ const About = () => {
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 bg-white p-4 rounded-lg shadow-lg">
-                <div className="text-portfolio-primary font-semibold">8+ Years Experience</div>
+                <div className="text-portfolio-primary font-semibold">7+ Years Experience</div>
                 <div className="text-portfolio-accent font-bold text-2xl">Brave Jin</div>
               </div>
             </div>
