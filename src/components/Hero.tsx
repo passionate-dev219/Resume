@@ -40,7 +40,7 @@ const Hero = () => {
           ref={titleRef} 
           className="text-4xl md:text-6xl font-bold mb-6 opacity-0 text-portfolio-dark"
         >
-          Hello, I'm <span className="text-portfolio-accent">Brave Jin</span>
+          Hello, I'm <span className="text-portfolio-accent">Shawn Zhang</span>
         </h1>
         <p 
           ref={subtitleRef}

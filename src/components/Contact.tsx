@@ -145,7 +145,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-portfolio-accent">Email</h4>
-                    <p className="text-white/80">inbrave547@gmail.com</p>
+                    <p className="text-white/80">ShawnZhang219@gmail.com</p>
                   </div>
                 </div>
                 
@@ -158,7 +158,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-portfolio-accent">Location</h4>
-                    <p className="text-white/80">Singapore, Singapore</p>
+                    <p className="text-white/80">Toronto,Ontario, L4C Canada</p>
                   </div>
                 </div>
                 
