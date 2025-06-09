@@ -95,8 +95,8 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Finance and Banking Dashboard",
-      description: "Developing a financial dashboard involves constructing highly accurate transactional data pipelines, integrating APIs from payment processors and banks, applying data aggregation logic to generate meaningful charts for cash flow, account balances, and portfolio analysis, while enforcing strict security rules for financial compliance and audit trails..",
+      title: "Online Learning Marketplace",
+      description: "Creating an online learning marketplace requires designing an ecosystem where instructors can upload course materials, students can browse and enroll in courses, and the system dynamically delivers video content, assignments, and assessments, all while managing secure payments, tracking learner progress, and incorporating real-time reviews, ratings, and engagement analytics to personalize user experiences and drive retention.",
       image: "/images/db472bbc-bbca-4478-b90c-e44a23704da3.png",
       technologies: ["Angular", "Laravel", "MySQL", "Docker"],
       github: "https://github.com/yanusukjhonson/financial-dashboard",
