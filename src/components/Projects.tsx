@@ -139,7 +139,7 @@ const Projects = () => {
       description: "A modern administrative interface for system management with user controls, analytics, and monitoring capabilities. Built with responsive design and advanced security features for enterprise use.",
       image: "/images/ddf0df1f-f97d-447f-b540-88930834dbc9.png",
       technologies: ["Angular", "Spring Boot", "Oracle", "Redis"],
-      github: "https://github.com/yanusukjhonson/admin-control-panel",
+      github: "https://github.com/yanusukjhonson/financial-dashboard",
       demo: "https://admin-panel-demo.firebase.app",
       year: "2018"
     },
@@ -150,7 +150,7 @@ const Projects = () => {
       image: "/images/2b2ead0a-debf-4a9d-869e-e0016ad6aae3.png",
       technologies: ["Angular", "Spring Boot", "Oracle", "Redis"],
       github: "https://github.com/yanusukjhonson/admin-control-panel",
-      demo: "https://admin-panel-demo.firebase.app",
+      demo: "https://admin-panel-demo.last.app",
       year: "2017"
     },
     {
@@ -159,7 +159,7 @@ const Projects = () => {
       description: "A clean and minimalistic admin dashboard interface designed for tracking sales, earnings, user engagement, and business metrics in real time. It features dual area charts for visualizing weekly trends in sales and revenue, alongside KPI cards displaying totals such as 1,500 sales, $780 in earnings, and 4,252 active users.",
       image: "/images/3ecef0bd-d894-432b-9ba1-f5703ee8a1ac.png",
       technologies: ["Next", "Python", "Mysql", "Redis"],
-      github: "https://github.com/yanusukjhonson/admin-control-panel",
+      github: "https://github.com/yanusukjhonson/financial-dashboard",
       demo: "https://admin-panel-demo.firebase.app",
       year: "2016"
     }
