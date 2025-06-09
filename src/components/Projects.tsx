@@ -142,6 +142,16 @@ const Projects = () => {
       github: "https://github.com/yanusukjhonson/admin-control-panel",
       demo: "https://admin-panel-demo.firebase.app",
       year: "2018"
+    },
+    {
+      id: 9,
+      title: "Administrative Control Panel",
+      description: "A responsive e-commerce admin dashboard UI featuring interactive charts, sales analytics, and real-time metrics like signups, orders, and system usage, designed for efficient business monitoring.",
+      image: "/images/2b2ead0a-debf-4a9d-869e-e0016ad6aae3.png",
+      technologies: ["Angular", "Spring Boot", "Oracle", "Redis"],
+      github: "https://github.com/yanusukjhonson/admin-control-panel",
+      demo: "https://admin-panel-demo.firebase.app",
+      year: "2017"
     }
   ];
 
