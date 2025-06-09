@@ -65,8 +65,8 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "MatDash Analytics Platform",
-      description: "A comprehensive analytics dashboard featuring revenue forecasting, performance metrics, and customer insights. Built with modern React components and interactive data visualizations for business intelligence.",
+      title: "E-commerce Platform",
+      description: "Building an e-commerce admin dashboard requires implementing modules to track product listings, manage inventory, and monitor order statuses, while integrating payment gateway analytics and customer insights through secure APIs and database queries that render sales trends and revenue performance in real-time via dynamic chart components..",
       image: "/images/cedcb8c0-b11d-4a67-b72d-97977ddec4cd.png",
       technologies: ["React", "TypeScript", "D3.js", "Node.js"],
       github: "https://github.com/yanusukjhonson/matdash-analytics",
@@ -75,8 +75,8 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Enterprise Dashboard Suite",
-      description: "A professional dashboard solution for enterprise management with advanced filtering, real-time updates, and comprehensive reporting. Features modular design and scalable architecture for large organizations.",
+      title: "Healthcare Management System",
+      description: "In a healthcare dashboard, developers must architect secure data pipelines to display patient statistics, appointment schedules, and treatment progress, ensuring HIPAA-compliant encryption protocols are applied at every stage, while also integrating hospital management APIs and visualizing key metrics like doctor availability and medical inventory usage..",
       image: "/images/df01d867-a25d-44fe-9f18-fd0a34eeeb69.png",
       technologies: ["Vue.js", "Express.js", "PostgreSQL", "Redis"],
       github: "https://github.com/yanusukjhonson/enterprise-dashboard",
@@ -85,8 +85,8 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "E-Commerce Analytics Hub",
-      description: "An advanced e-commerce analytics platform providing detailed insights into sales performance, customer behavior, and product analytics. Includes predictive modeling and automated reporting features.",
+      title: "SaaS Product Dashboard",
+      description: "To build a SaaS product dashboard, engineers design scalable modules for user onboarding, subscription tracking, and resource usage, incorporating real-time monitoring tools and role-based access control that ensures both end-users and administrators have tailored views with performance graphs and business metrics updated dynamically..",
       image: "/images/fe876b9e-6ff6-408a-848f-d5fe7f6a4011.png",
       technologies: ["Next.js", "MongoDB", "Chart.js", "AWS"],
       github: "https://github.com/yanusukjhonson/ecommerce-analytics",
@@ -95,8 +95,8 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Financial Metrics Dashboard",
-      description: "A comprehensive financial dashboard for tracking revenue, expenses, and key performance indicators. Features real-time data synchronization and customizable widgets for financial analysis.",
+      title: "Finance and Banking Dashboard",
+      description: "Developing a financial dashboard involves constructing highly accurate transactional data pipelines, integrating APIs from payment processors and banks, applying data aggregation logic to generate meaningful charts for cash flow, account balances, and portfolio analysis, while enforcing strict security rules for financial compliance and audit trails..",
       image: "/images/db472bbc-bbca-4478-b90c-e44a23704da3.png",
       technologies: ["Angular", "Laravel", "MySQL", "Docker"],
       github: "https://github.com/yanusukjhonson/financial-dashboard",
@@ -105,8 +105,8 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Business Intelligence Platform",
-      description: "A powerful business intelligence solution with advanced data visualization, custom reporting, and collaborative features. Designed for data-driven decision making with intuitive user interface.",
+      title: "Education Platform (LMS)",
+      description: "For an education management system, developers implement dashboards that track student progress, course completion rates, and quiz analytics, integrating learning content APIs and building instructor dashboards that visualize class performance while supporting filters by course, time frame, and engagement level using real-time data rendering..",
       image: "/images/2b6eff1e-731c-4cc5-9b0e-9dad49d27c11.png",
       technologies: ["React", "Python", "FastAPI", "Elasticsearch"],
       github: "https://github.com/yanusukjhonson/business-intelligence",
@@ -115,8 +115,8 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "Sales Management System",
-      description: "An innovative sales management platform featuring lead tracking, performance analytics, and team collaboration tools. Streamlines sales processes with automated workflows and detailed reporting.",
+      title: "Customer Support & CRM System",
+      description: "In a CRM or support dashboard, engineers create modules to monitor customer tickets, satisfaction scores, and agent activity, utilizing REST APIs to fetch case updates, enabling message notifications, and visualizing team KPIs such as resolution time, backlog volume, and channel performance with filters and exportable reports..",
       image: "/images/604fda80-354f-4397-ba72-b83028762b95.png",
       technologies: ["Vue.js", "Django", "PostgreSQL", "Celery"],
       github: "https://github.com/yanusukjhonson/sales-management",
@@ -125,8 +125,8 @@ const Projects = () => {
     },
     {
       id: 7,
-      title: "Project Management Dashboard",
-      description: "A comprehensive project management solution with task tracking, team collaboration, and progress monitoring. Features real-time notifications and customizable project workflows for enhanced productivity.",
+      title: "Real Estate Platform",
+      description: "A real estate dashboard involves aggregating property listings, managing agents and clients, and integrating location-based analytics via services like Google Maps, while visualizing market trends, average pricing, and viewing activity using backend services that process queries and serve data securely to frontend visualization components..",
       image: "/images/392d9aa4-273f-4e41-9910-bc6c0e817a6f.png",
       technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
       github: "https://github.com/yanusukjhonson/project-management",
@@ -135,8 +135,8 @@ const Projects = () => {
     },
     {
       id: 8,
-      title: "Administrative Control Panel",
-      description: "A modern administrative interface for system management with user controls, analytics, and monitoring capabilities. Built with responsive design and advanced security features for enterprise use.",
+      title: " IoT Device Monitoring System",
+      description: "Developing an IoT dashboard requires integrating data streams from connected sensors, visualizing device uptime, status alerts, and environmental metrics in near real-time, while setting up MQTT brokers or WebSocket channels for low-latency communication and enabling historical data logging for diagnostic analytics and performance trends..",
       image: "/images/ddf0df1f-f97d-447f-b540-88930834dbc9.png",
       technologies: ["Angular", "Spring Boot", "Oracle", "Redis"],
       github: "https://github.com/yanusukjhonson/financial-dashboard",
@@ -155,8 +155,8 @@ const Projects = () => {
     },
     {
       id: 10,
-      title: "Responsive Analytics Dashboard UI",
-      description: "A clean and minimalistic admin dashboard interface designed for tracking sales, earnings, user engagement, and business metrics in real time. It features dual area charts for visualizing weekly trends in sales and revenue, alongside KPI cards displaying totals such as 1,500 sales, $780 in earnings, and 4,252 active users.",
+      title: "Human Resource (HR) Management",
+      description: "In an HR management dashboard, the development process includes building features to display hiring pipeline stages, employee attendance, leave balances, and performance reviews, while connecting backend HR databases and ensuring privacy controls, with dynamic charting tools to track workforce trends and organizational KPIs..",
       image: "/images/3ecef0bd-d894-432b-9ba1-f5703ee8a1ac.png",
       technologies: ["Next", "Python", "Mysql", "Redis"],
       github: "https://github.com/yanusukjhonson/financial-dashboard",
