@@ -145,13 +145,23 @@ const Projects = () => {
     },
     {
       id: 9,
-      title: "Administrative Control Panel",
-      description: "A responsive e-commerce admin dashboard UI featuring interactive charts, sales analytics, and real-time metrics like signups, orders, and system usage, designed for efficient business monitoring.",
+      title: "Sleek Analytics Dashboard UI",
+      description: "A responsive Sleek admin dashboard UI featuring interactive charts, sales analytics, and real-time metrics like signups, orders, and system usage, designed for efficient business monitoring.",
       image: "/images/2b2ead0a-debf-4a9d-869e-e0016ad6aae3.png",
       technologies: ["Angular", "Spring Boot", "Oracle", "Redis"],
       github: "https://github.com/yanusukjhonson/admin-control-panel",
       demo: "https://admin-panel-demo.firebase.app",
       year: "2017"
+    },
+    {
+      id: 10,
+      title: "Responsive Analytics Dashboard UI",
+      description: "A clean and minimalistic admin dashboard interface designed for tracking sales, earnings, user engagement, and business metrics in real time. It features dual area charts for visualizing weekly trends in sales and revenue, alongside KPI cards displaying totals such as 1,500 sales, $780 in earnings, and 4,252 active users.",
+      image: "/images/3ecef0bd-d894-432b-9ba1-f5703ee8a1ac.png",
+      technologies: ["Next", "Python", "Mysql", "Redis"],
+      github: "https://github.com/yanusukjhonson/admin-control-panel",
+      demo: "https://admin-panel-demo.firebase.app",
+      year: "2016"
     }
   ];
 
