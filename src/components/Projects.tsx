@@ -85,8 +85,8 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "SaaS Product Dashboard",
-      description: "To build a SaaS product dashboard, engineers design scalable modules for user onboarding, subscription tracking, and resource usage, incorporating real-time monitoring tools and role-based access control that ensures both end-users and administrators have tailored views with performance graphs and business metrics updated dynamically..",
+      title: "Travel Booking Platform",
+      description: "Building a travel booking platform involves integrating third-party APIs for flights, hotels, and local experiences, constructing secure user accounts for itinerary management, and developing modules to handle real-time availability, pricing fluctuations, and personalized suggestions, while also supporting multi-currency payments, language localization, and customer support workflows across web and mobile platforms.",
       image: "/images/fe876b9e-6ff6-408a-848f-d5fe7f6a4011.png",
       technologies: ["Next.js", "MongoDB", "Chart.js", "AWS"],
       github: "https://github.com/yanusukjhonson/ecommerce-analytics",
@@ -145,8 +145,8 @@ const Projects = () => {
     },
     {
       id: 9,
-      title: "Sleek Analytics Dashboard UI",
-      description: "A responsive Sleek admin dashboard UI featuring interactive charts, sales analytics, and real-time metrics like signups, orders, and system usage, designed for efficient business monitoring.",
+      title: "Logistics and Supply Chain Management System",
+      description: "Creating a logistics and supply chain dashboard involves integrating real-time shipment tracking APIs, inventory databases, and warehouse management systems to display key metrics such as delivery status, stock levels, carrier performance, and route optimization, all while ensuring that data synchronization, location mapping, and exception alert systems are tightly coupled for seamless operational oversight across global distribution networks..",
       image: "/images/2b2ead0a-debf-4a9d-869e-e0016ad6aae3.png",
       technologies: ["Angular", "Spring Boot", "Oracle", "Redis"],
       github: "https://github.com/yanusukjhonson/admin-control-panel",
