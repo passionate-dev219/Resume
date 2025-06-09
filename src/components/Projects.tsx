@@ -220,7 +220,7 @@ const Projects = () => {
                       ))}
                     </div>
                     
-                    <div className={`flex gap-4 ${isEven ? 'md:justify-end' : 'md:justify-start'}`}>
+                    {/* <div className={`flex gap-4 ${isEven ? 'md:justify-end' : 'md:justify-start'}`}>
                       <a 
                         href={project.github}
                         target="_blank"
@@ -239,7 +239,7 @@ const Projects = () => {
                         <ExternalLink className="w-5 h-5" />
                         <span>Live Demo</span>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
