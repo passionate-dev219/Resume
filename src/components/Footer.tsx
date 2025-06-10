@@ -54,7 +54,7 @@ const Footer = () => {
                 </li>
                 <li className="flex gap-2">
                   <span className="text-portfolio-accent">Address:</span>
-                  <span className="text-white/70">Richmond Hill, ON L4C 0A1 Canada</span>
+                  <span className="text-white/70">Richmond Hill,Canada</span>
                 </li>
               </ul>
             </div>
