@@ -97,7 +97,11 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-80 md:h-96 bg-gray-200 rounded-lg overflow-hidden">
                 <div>
-                  
+                  <img 
+                    src="/images/345d4365-a328-4f02-a64f-db8abebae726.png"
+                    alt="Shawn Zhang" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute -bottom-5 -right-5 bg-white p-4 rounded-lg shadow-lg">
